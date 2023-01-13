@@ -19,9 +19,7 @@ exports.getusersallposts = async (req, res) => {
 };
 exports.findAllPosts = (req, res, next) => {
     Post.findAll({
-        order: [
-            [req.query.sort ?? 'id', req.query.order ?? 'DESC']
-        ],
+  
         include: (req.query.include === 'user' ? [{ model: User, attributes: ['username'] }] : '')
     })
         .then(posts => res.status(200).json(posts))
