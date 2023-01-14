@@ -15,9 +15,11 @@
   },
   "production": {
     "username": "root",
-    "password": "password5",
-    "database": "nextcloud",
-    "host": "db",
+    "password": "cPtr0iw9rsvUuuA1luTg",
+    "database": "railway",
+    "host": "containers-us-west-121.railway.app",
+    "port": "6801",
     "dialect": "mysql"
   }
 }
+
