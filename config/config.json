@@ -1,10 +1,11 @@
 {
   "development": {
     "username": "root",
-    "password": "password5",
-    "database": "nextcloud",
-    "host": "db",
-    "dialect": "mysql"
+    "password": "cPtr0iw9rsvUuuA1luTg",
+    "database": "railway",
+    "host": "containers-us-west-121.railway.app",
+    "dialect": "mysql",
+    "port":"6801"
   },
   "test": {
     "username": "root",
@@ -18,8 +19,7 @@
     "password": "cPtr0iw9rsvUuuA1luTg",
     "database": "railway",
     "host": "containers-us-west-121.railway.app",
-    "port": "6801",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port":"6801"
   }
 }
-
